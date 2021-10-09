@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.title{
+  background-color: aqua;
+  text-align: center;
+}
+
+@media print {
+  .title {
+    text-align: right;
+    background-color: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .title{
+    background-color: red;
+    font-size: 5rem;
+  }
+}
+
+.header{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  height: 100%vh;
+  color:#fff;
+  padding-bottom: 60px;
+  position:relative;
+}
+.wave {
+  height: 55px; 
+  overflow: hidden;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+.background {
+  width: 40%;
+  height: 500px;
+  position:absolute;
+  top:0;
+  right: 0;
+  background-image: url(./img/bg2.svg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
+
+}
+
+
+  .body{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 150vh;
+  }
+
+  .header__title{
+    font-size: 4 rem;
+    position: absolute;
+    top: 150px;
+    left:200px;
+  }
+
+  .card {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #117dc5;
+    border-radius: 5px;
+    margin-right: 1px;
+    margin: 0 10px;
+    box-shadow: 10px 8px 1px -1px rgba(189, 26, 26, 0.42);
+    margin-top: 30px;
+  }
+
+  .text{
+    margin-top: 20px;
+  }
