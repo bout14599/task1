@@ -27,7 +27,7 @@
 
 
 .d-flex {
-  background-color: rgb(44, 192, 44);
+  background-color: rgb(192, 44, 44);
 }
 .navbar-brand {
   background-color: blue;
@@ -91,4 +91,35 @@
 
   .text{
     margin-top: 20px;
+  }
+
+  .text_footer {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    position: absolute;
+    height: 400px;
+    width: 100%;
+  }
+  
+  .text_legend{
+    width: 45%;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 50px;
+    position: relative;
+  }
+
+  .text_logo {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(./img/ba54-removebg-preview.png);
+    width: 100%;
+    height:100px;
+    position: relative;
+    background-size:contain;
+    margin-top: 30px;
+    margin-left: 120px;
+  }
+
+  .footnote{
+    height: 30px;
   }
