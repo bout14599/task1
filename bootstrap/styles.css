@@ -37,6 +37,14 @@
   background-color: green;
 }
 
+.nav_link_footer {
+background-color: blueviolet;
+left: 30%;
+top: 60px;
+text-align: center;
+position: relative;
+}
+
 .header{
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   height: 100%vh;
@@ -100,6 +108,11 @@
     width: 100%;
   }
   
+  .text_link {
+    top: 150px;
+    text-align: justify;
+  }
+
   .text_legend{
     width: 45%;
     margin-top: 30px;
