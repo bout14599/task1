@@ -38,11 +38,14 @@
 }
 
 .nav_link_footer {
-background-color: blueviolet;
-left: 30%;
-top: 60px;
-text-align: center;
-position: relative;
+top: 100px;
+text-align: left;
+width: 40%;
+left: 50%;
+margin-left: 10px;
+position:relative;
+color:gray;
+font-size: 17px;
 }
 
 .header{
@@ -71,8 +74,6 @@ position: relative;
   background-size:contain;
 
 }
-
-
   .body{
     font-family: 'Roboto Condensed', sans-serif;
     height: 150vh;
@@ -110,15 +111,22 @@ position: relative;
   
   .text_link {
     top: 150px;
-    text-align: justify;
+    text-align: left;
+    width: 40%;
+    position:absolute;
+    left: 50%;
+    color: gray;
+    font-size: 17px;
   }
 
   .text_legend{
     width: 45%;
     margin-top: 30px;
     text-align: justify;
-    padding-left: 50px;
+    padding-left: 135px;
     position: relative;
+    padding-bottom: 5px;
+    color: gray;
   }
 
   .text_logo {
@@ -134,5 +142,10 @@ position: relative;
   }
 
   .footnote{
-    height: 30px;
+    height: 10px;
+    text-align: center;
+    background-color:#fff;
+    position: relative;
+    top: 420px;
+    margin-bottom: 10px;
   }
